@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item
+        android:id="@+id/home1"
+        android:title="@string/home1" />
+    <item
+        android:id="@+id/home2"
+        android:title="@string/home2" />
+    <item
+        android:id="@+id/home3"
+        android:title="@string/home3" />
+    <item
+        android:id="@+id/t66y"
+        android:title="@string/old_home" />
+    <item
+        android:id="@+id/open"
+        android:title="@string/open" />
+    <item
+        android:id="@+id/copy"
+        android:title="@string/copy" />
+</menu>

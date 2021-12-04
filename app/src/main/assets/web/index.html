@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我爱你</title>
+</head>
+<body>
+<div id="main_dev">
+    <p>
+        我是睡觉觉
+    </p>
+    <a href="https://1024shen.com"> 1024xiaoshen</a>
+    <div>
+        我想睡在大床上
+    </div>
+    <iframe>
+        asdfasdfasdfasdfasdf
+    </iframe>
+    <iframe>
+        asdfasdfasdfasdfasdf
+    </iframe>
+</div>
+<button id="btn1">js调用Kotlin方法</button>
+<button id="btn2">js调用Kotlin方法（Callback）</button>
+<script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+</script>
+<script>
+    $("#btn1").on("click", function () {
+        console.log("点击了");
+        // 第一种：调用kotlin方法
+        var json = {"name": "html5"};
+        // 调用kotlin的方法
+        window.jsInterface.shouToast(JSON.stringify(json))
+    });
+
+    $("#btn2").on("click", function () {
+        // 调用kotlin的方法
+        window.jsInterface.getHome()
+    });
+
+    // 第二种:定义一个方法，让kotlin调用
+    var showMessage = function (jsonStr) {
+        alert("Kotlin调用到这个方法了" + JSON.stringify(jsonStr))
+    }
+
+</script>
+<script>
+    function setTop() {
+        tag=document.getElementsByTagName('iframe');for(let i = 0; i < tag.length; i++){tag[i].style.display = "none"}
+    }
+
+    setTop();
+</script>
+</body>
+</html>

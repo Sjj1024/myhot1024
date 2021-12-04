@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">1024抖妹</string>
+    <string name="app_description">这里总有你想看的吧</string>
+    <string name="caoliu_tit">1024草榴</string>
+    <string name="porn_video">91Pr视频</string>
+    <string name="porn_photo">91Pr自拍</string>
+    <string name="heil_video">黑料B打烊</string>
+    <string name="sehuatang">98色花堂</string>
+    <string name="more_items">更多推荐</string>
+    <string name="share_items">分享应用</string>
+    <string name="about_items">关于</string>
+    <string name="home0">永久地址</string>
+    <string name="home1">地址一</string>
+    <string name="home2">地址二</string>
+    <string name="home3">地址三</string>
+    <string name="old_home">永久地址</string>
+    <string name="copy">复制链接</string>
+    <string name="open">用浏览器打开</string>
+</resources>

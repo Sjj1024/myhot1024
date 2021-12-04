@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_1"
+        android:icon="@drawable/ic_gress"
+        android:title="@string/caoliu_tit" />
+
+    <item
+        android:id="@+id/menu_2"
+        android:icon="@drawable/ic_91video"
+        android:title="@string/porn_video" />
+
+    <item
+        android:id="@+id/menu_3"
+        android:icon="@drawable/ic_91camer"
+        android:title="@string/porn_photo" />
+
+    <item
+        android:id="@+id/menu_4"
+        android:icon="@drawable/ic_baseline_bathtub_24"
+        android:title="@string/heil_video" />
+
+    <item
+        android:id="@+id/menu_8"
+        android:icon="@drawable/ic_baseline_local_florist_24"
+        android:title="@string/sehuatang" />
+
+    <item
+        android:id="@+id/menu_5"
+        android:icon="@drawable/ic_baseline_more_24"
+        android:title="@string/more_items" />
+
+    <item
+        android:id="@+id/menu_6"
+        android:icon="@drawable/ic_baseline_share"
+        android:title="@string/share_items" />
+
+        <item
+            android:id="@+id/menu_7"
+            android:icon="@drawable/ic_baseline_info"
+            android:title="@string/about_items" />
+
+</menu>
